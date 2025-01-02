@@ -4,3 +4,99 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --primary-color: #A8DADC;
+    --secondary-color: #F4A261;
+    --tertiary-color: #E76F51;
+    --text-color: #264653;
+    --background-color: #F1FAEE;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.625rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75rem;
+    margin: auto;
+    padding: 0 1.25rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.25rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.124rem;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger .fa-circle-xmark {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 3.4375rem;
+        left: 0;
+        background: var(--primary-color);
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+
+    .nav-links li {
+        margin: 0.625rem 0;
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    display: flex;
+}
+
+.nav-active ~ .burger .open-icon {
+    display: none;
+}
+
+.nav-active ~ .burger .fa-circle-xmark {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
