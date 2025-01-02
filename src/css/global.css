@@ -33,6 +33,10 @@ nav {
     padding: 0 1.25rem;
 }
 
+span {
+    color: var(--secondary-color);
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -51,6 +55,11 @@ nav {
     color: #fff;
     text-decoration: none;
     font-size: 1.124rem;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+    transition: all 0.3s ease-in-out;
 }
 
 .burger {
