@@ -517,6 +517,47 @@ span {
 .contato-icone:hover {
     color: var(--secondary-color);
 }
+
+/* Estilos para o rodapé */
+#footer {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer-icones {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icone {
+    font-size: 1.5rem;
+    color: var(--tertiary-color);
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-icone:hover {
+    color: var(--secondary-color);
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
