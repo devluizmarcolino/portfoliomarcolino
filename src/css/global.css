@@ -6,11 +6,11 @@
 }
 
 :root {
-    --primary-color: #A8DADC;
-    --secondary-color: #F4A261;
-    --tertiary-color: #E76F51;
-    --text-color: #264653;
-    --background-color: #F1FAEE;
+    --primary-color: #F79509;
+    --secondary-color: #FFDAB9;
+    --tertiary-color: #E6E6FA;
+    --text-color: #696969;
+    --background-color: #FFFACD;
 }
 
 body {
