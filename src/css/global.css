@@ -187,6 +187,7 @@ span {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .btn i {
@@ -429,6 +430,93 @@ span {
     background-color: var(--secondary-color);
 }
 
+/* Estilos para a seção de contatos */
+#contatos {
+    padding: 50px 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.contatos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contatos-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+.contato-form .btn {
+    align-self: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contato-form .btn i {
+    margin-right: 5px;
+}
+
+.contato-form .btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.contato-icones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contato-icone {
+    font-size: 2rem;
+    color: var(--primary-color);
+    transition: color 0.3s ease-in-out;
+}
+
+.contato-icone:hover {
+    color: var(--secondary-color);
+}
 @keyframes fadeIn {
     from {
         opacity: 0;

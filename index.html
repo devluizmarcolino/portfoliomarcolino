@@ -22,7 +22,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#sobre-mim">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
             </ul>
             <div class="burger">
                 <i class="fas fa-bars open-icon"></i>
@@ -100,6 +100,32 @@
                 </div>
                 
             </div>
+        </div>
+    </section>
+
+    <section id="contatos">
+        <div class="contatos-container">
+            <h2>Contatos</h2>
+            <form class="contato-form">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn"><i class="fa fa-paper-plane"></i>Enviar</button>
+            </form>
+            <div class="contato-icones">
+            <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" class="contato-icone"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/seu-usuario" target="_blank" class="contato-icone"><i class="fab fa-github"></i></a>
+            <a href="seu-cv.pdf" download class="contato-icone"><i class="fa fa-file-download"></i></a>
+        </div>
         </div>
     </section>
 </main>
